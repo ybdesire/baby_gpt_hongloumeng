@@ -77,6 +77,8 @@ cost ~4 minutes.
 python sample.py --out_dir=out-hongloumeng-char-local/
 ```
 
+currently the model cannot be used as QA model. It can only output sentences with `\n` as input. 
+
 output:
 
 ```
