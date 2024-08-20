@@ -1,5 +1,5 @@
 # baby_gpt_hongloumeng
-train baby gpt with hongloumeng text for karpathy nanoGPT repo from https://github.com/karpathy/nanoGPT
+train `babyGPT-12.32M` with hongloumeng text for karpathy nanoGPT repo from https://github.com/karpathy/nanoGPT
 
 # steps
 
