@@ -157,3 +157,25 @@ Loading meta from data/hongloumeng_char_local/meta.pkl...
 
 ```
 
+5. QA(AIGC by prompt)
+
+- input question/prompt at `prompt.txt`
+- run `python sample_prompt.py --out_dir=out-hongloumeng-char-local/`
+
+```
+Overriding: out_dir = out-hongloumeng-char-local/
+  checkpoint = torch.load(ckpt_path, map_location=device)
+number of parameters: 12.32M
+Loading meta from data/hongloumeng_char_local/meta.pkl...
+黛玉一边吃瓜子一边吃肥肉
+
+黛玉只管吃着饭，因向紫鹃道：“你们去罢，有话说说的？”紫鹃道：“你不必说我们大姑娘闲话呢，让我听。”黛玉道：“那里吃茶，只是等罢。”黛玉忙起身走开，回身道：“姑娘也睡了。到底是我们姊妹们歇歇歇儿，只怕是等你们，我再来罢。”黛玉笑道：“你们只管去罢。”
+
+宝玉答应了，方起身走入房中。宝玉便往他房里去时，见袭人等都来了。宝玉笑道：“我们不用进去。”袭人笑道：“我们所以如此想。”袭人忙扶了她坐，至炕上，见宝玉在那里，便端水。宝玉便自己坐了两个大桌，一径往怡红院中来。
+
+宝玉因向黛玉道：“你们去了，还没有？你们三个人在这里，又不能进去，因此咱们回房里没有？宝玉读书，你们也可大好？”宝玉道：“你们先别叫起，我们天天天才睡一夜的，也不能睡觉，等我再说话儿，我再不必叫你们听。”宝玉道：“我不信。你既这样说，横竖不如我明白你们几个照看，这会子也乏了。”宝玉笑道：“你们可别笑话呢。”宝玉笑道：“你们只顾坐才说话儿罢。”宝玉听了，解手笑道：“你们都说话，等我再说。”黛玉笑道：“往哪里去？”宝玉道：“且不必说话，只是你无缘了。”黛玉道：“你也不必委屈了。”宝玉道：“我替你解闷儿。”黛玉道：“你们没有，就只
+---------------
+
+```
+
+
